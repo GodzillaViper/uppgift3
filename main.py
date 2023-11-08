@@ -12,11 +12,11 @@ def collatz_sequence(n):
     return l
 
 
-num_numbers = int(input("Enter the number of integers you want to process: "))
+num_numbers = int(input())
 
 for i in range(num_numbers):
 
-    input_number = int(input(f"Enter integers {i + 1}: "))
+    input_number = int(input())
     sequence_lenght = collatz_sequence(input_number)
     print(
-        f"The lenght of collatz sequence for integers {input_number} är {sequence_lenght}")
+        f"{sequence_lenght}")
